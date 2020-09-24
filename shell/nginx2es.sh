@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# @describe: 重启 nginx2es
+# @describe: restart nginx2es
 
 #set -x
 pid=$(ps axu | grep nginx2es | grep -v grep | awk '{print $2}')
